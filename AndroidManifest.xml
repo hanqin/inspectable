@@ -16,6 +16,6 @@
             android:name="me.hanqin.apps.inspect.PreferenceConfigure"
             android:targetPackage="me.hanqin.demos.email" />
     <instrumentation
-            android:name="me.hanqin.apps.inspect.AppSurgery"
+            android:name=".Inspectable"
             android:targetPackage="me.hanqin.demos.email" />
 </manifest>

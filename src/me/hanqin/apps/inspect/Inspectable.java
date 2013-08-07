@@ -26,7 +26,7 @@ import java.util.HashMap;
  * ant debug; ant installd
  * 2, build HHT5_Config (this project), install
  * ant debug; ant installd
- * 3, adb shell am instrument me.hanqin.apps.inspect/me.hanqin.apps.inspect.AppSurgery
+ * 3, adb shell am instrument me.hanqin.apps.inspect/me.hanqin.apps.inspect.Inspectable
  * Please take a look at the adb logcat output, you should find something like :
  * <code>inetAddress.getHostAddress() = 192.168.56.101</code>
  *
@@ -39,7 +39,7 @@ import java.util.HashMap;
  *
  * <p/>
  */
-public class AppSurgery extends Instrumentation {
+public class Inspectable extends Instrumentation {
 
     public static final String KEY_HTTP_PORT = "port";
 
