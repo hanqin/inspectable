@@ -24,8 +24,8 @@ Now, open you browser and try following urls:
 * To inspect a database:       GET http://your-address:10086/database/db_name.db
 
 * To manipulate a database:    POST http://your-address:10086/database/db_name.db
-                                  with params set to => sql: your-sql-script
-                                  with optional param set to => bulk: true if it bulk operations, separated by ;
+                                  * with params set to => sql: your-sql-script
+                                  * with optional param set to => bulk: true if it bulk operations, separated by ;
 
 
 
