@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="me.hanqin.apps.inspect"
+          android:allowBackup="false"
+          android:versionCode="1"
+          android:versionName="1.0">
+
+    <uses-sdk android:minSdkVersion="6" android:targetSdkVersion="16"/>
+
+    <application android:label="SetPreference" android:debuggable="true">
+        <uses-library android:name="android.test.runner" />
+        <uses-library android:name="com.google.android.maps" android:required="false" />
+    </application>
+
+    <instrumentation
+            android:name="me.hanqin.apps.inspect.PreferenceConfigure"
+            android:targetPackage="me.hanqin.demos.email" />
+    <instrumentation
+            android:name="me.hanqin.apps.inspect.AppSurgery"
+            android:targetPackage="me.hanqin.demos.email" />
+</manifest>
