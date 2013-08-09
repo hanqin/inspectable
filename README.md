@@ -1,12 +1,13 @@
 inspectable
 ===========
 
-A powerful tool to make you android applications inspectable
+A powerful tool that makes your android applications inspectable
 
 ---
 
 ###Usage
 
+0. update android manifest, set the target project for inspection.
 1. build inspectable (this project), install
     * ant debug; ant installd
 2. adb shell am instrument me.hanqin.apps.inspect/me.hanqin.apps.inspect.Inspectable
