@@ -7,7 +7,7 @@ A powerful tool to make you android applications inspectable
 
 ###Usage
 
-1. build HHT5_Config (this project), install
+1. build inspectable (this project), install
     * ant debug; ant installd
 2. adb shell am instrument me.hanqin.apps.inspect/me.hanqin.apps.inspect.Inspectable
     * Please take a look at the adb logcat output, you should find something like :
